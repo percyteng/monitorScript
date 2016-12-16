@@ -1,0 +1,25 @@
+{
+  "name": "monitor",
+  "version": "1.0.0",
+  "description": "This ndoe.js script is created to monitor a server and inform me through email if the server crashes",
+  "main": "monitor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/percyteng/monitorScript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/percyteng/monitorScript/issues"
+  },
+  "homepage": "https://github.com/percyteng/monitorScript#readme",
+  "dependencies": {
+    "moment": "^2.17.1",
+    "nodemailer": "^2.7.0",
+    "nodemailer-smtp-transport": "^2.7.2",
+    "request": "^2.79.0"
+  }
+}
